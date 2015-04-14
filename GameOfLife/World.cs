@@ -18,6 +18,16 @@ namespace GameOfLife
         private bool[,] _b;
         private bool[,] b2;
 
+        public bool[,] CurrentWorld
+        {
+            get
+            {
+                var currentWorld = new bool[12, 12];
+                Array.Copy(_b, currentWorld, 144);
+                return currentWorld;
+            }
+        }
+
         private void Generate()
         {
             var r = new Random();
