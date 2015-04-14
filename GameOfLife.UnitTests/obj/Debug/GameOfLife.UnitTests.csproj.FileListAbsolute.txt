@@ -1,0 +1,7 @@
+C:\git\GameOfLife\GameOfLife.UnitTests\bin\Debug\GameOfLife.UnitTests.dll
+C:\git\GameOfLife\GameOfLife.UnitTests\bin\Debug\GameOfLife.UnitTests.pdb
+C:\git\GameOfLife\GameOfLife.UnitTests\bin\Debug\nunit.framework.dll
+C:\git\GameOfLife\GameOfLife.UnitTests\bin\Debug\nunit.framework.xml
+C:\git\GameOfLife\GameOfLife.UnitTests\obj\Debug\GameOfLife.UnitTests.csprojResolveAssemblyReference.cache
+C:\git\GameOfLife\GameOfLife.UnitTests\obj\Debug\GameOfLife.UnitTests.dll
+C:\git\GameOfLife\GameOfLife.UnitTests\obj\Debug\GameOfLife.UnitTests.pdb
