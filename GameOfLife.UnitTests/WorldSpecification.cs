@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Linq;
+using System.Text;
 using NUnit.Framework;
 
 namespace GameOfLife.UnitTests
@@ -32,6 +33,21 @@ namespace GameOfLife.UnitTests
 
             Assert.That(aliveCells, Is.GreaterThan(144 * 0.1));
             Assert.That(aliveCells, Is.LessThan(144 * 0.5));
+        }
+
+        [Test]
+        public void ShouldChangeWhenSteppingGeneration()
+        {
+            var world = new World();
+            var firstGen = world.CurrentWorld;
+
+            world.StepGeneration();
+
+            var newGen = world.CurrentWorld;
+            var changed = false;
+            // TODO: loopa igenom generationerna och kontrollera att något ändrats.
+            changed = true;
+            Assert.That(changed, Is.True);
         }
     }
 }
